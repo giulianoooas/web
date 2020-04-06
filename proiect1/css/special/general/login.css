@@ -1,0 +1,28 @@
+.dreapta{
+    width:100%;
+}
+.poza{
+    height:50px;
+}
+.formular{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+input[type='password']{
+    color:green;
+    width:50%;
+}
+input[type='email']{
+    color:green;
+    width:50%;
+}
+input{
+    border-radius: 20%;
+}
+
+.butoane{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

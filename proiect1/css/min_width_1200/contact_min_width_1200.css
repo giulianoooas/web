@@ -1,0 +1,65 @@
+@media screen and (min-width:1200px){
+    .aaaa{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .gol{
+        width:10%;
+    }
+    .gol2{
+        width:10%;
+    }
+    .urare{
+        text-align: center;
+        font-size: 5ex;
+        text-decoration: underline;
+    }
+    .bbb{
+        font-size: 20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width:100%;
+    }
+    .stanga{
+        width:84%;
+    }
+    .dreapta{
+        width:15%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .dreapta img{
+        border:solid 1px black;
+        height:300px;
+        border-radius: 20%;
+    }
+    #down{
+        border:none;
+        height:100px;
+        width:40px;
+    }
+    #right{
+        display:none;
+    }
+    .sageti{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .butoane{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .butoane img{
+        height:40px;
+    }
+    .descriere{
+        padding-left: 10px;
+        font-size:20px;
+        font-weight: bold;
+    }
+}

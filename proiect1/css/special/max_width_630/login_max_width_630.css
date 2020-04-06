@@ -1,0 +1,49 @@
+@media screen and (max-width: 630px){
+    .introul{
+        height:100px;
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    body{
+        font-size: 14px;
+        font-family:Arial;
+    }
+    .corp{
+        display:grid;
+    }
+    .all{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width:100%;
+    }
+    .stanga{
+        width:10%;
+    }
+    input[type='submit']{
+        font-size: 14px;
+        font-family:Arial;
+        border-radius: 30%;
+        width:20%;
+        background-color: green;
+        color: white;
+        border:1px black solid;
+    }
+    input[type='reset']{
+        font-size: 14px;
+        font-family:Arial;
+        border-radius: 30%;
+        width:20%;
+        background-color: green;
+        color: white;
+        border:1px black solid;
+    }
+    .intro{
+        display: none;
+    }
+    .pozele{
+        width:30px;
+    }
+}

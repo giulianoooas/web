@@ -1,0 +1,26 @@
+@media screen and (max-width:800px){
+    input[type='submit']{
+        font-size: 14px;
+        font-family:Arial;
+        border-radius: 30%;
+        width:20%;
+        background-color: green;
+        color: white;
+        border:1px black solid;
+    }
+    input[type='reset']{
+        font-size: 14px;
+        font-family:Arial;
+        border-radius: 30%;
+        width:20%;
+        background-color: green;
+        color: white;
+        border:1px black solid;
+    }
+    textarea{
+        width:60%;
+    }
+    .pozele{
+        width:30px;
+    }
+}

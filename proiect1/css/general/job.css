@@ -1,0 +1,14 @@
+.corpul{
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:100%;
+}
+
+.corpului{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

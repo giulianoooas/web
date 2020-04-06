@@ -1,0 +1,47 @@
+.intro{
+    font-family: Arial;
+}
+
+.poza{
+    height:40px;
+}
+.formular{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+input[type='text']{
+    width:50%;
+    color:green;
+}
+input[type='password']{
+    width:50%;
+    color:green;
+}
+input[type='email']{
+    width:50%;
+    color:green;
+}
+input, select{
+    width:50%;
+    font-family: Arial;
+    border-radius: 20%;
+}
+
+option, select{
+    color:green;
+}
+
+textarea{
+    height: 30%;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color:green;
+}
+.butoane{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

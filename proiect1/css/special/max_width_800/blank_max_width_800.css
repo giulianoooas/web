@@ -1,0 +1,34 @@
+@media screen and (max-width:800px){
+    .intro{
+        font-family: Arial;
+        font-size: 16px;
+        color:black;
+    }
+    .intro h1{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+    .intro h2{
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    .intro h3{
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    .intro h4{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .intro h5{
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .intro h6{
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    .key{
+        font-weight: bold;
+    }
+}

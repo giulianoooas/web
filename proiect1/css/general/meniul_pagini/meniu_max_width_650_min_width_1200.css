@@ -1,0 +1,45 @@
+@media screen and (min-width:650px) and (max-width:1200px){
+    .meniu a{
+        text-decoration: none;
+    }
+        .meniu a:hover{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu a:active{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu a:link{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu a:visited{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu{
+            border: 1px black solid;
+            font-family: Arial;
+            font-size: 40px;
+            background-color: green;
+            text-align: center;
+            display: grid;
+            grid-template-areas: 
+            'right right middle middle left left';
+            border-radius: 30%;
+        }
+        .comp1{
+            grid-area: right;
+        }
+        .comp2{
+            grid-area: middle;
+        }
+        .comp3{
+            grid-area: left;
+        }
+        .meniu > div:hover{
+            font-weight: bold;
+            font-size: 45px;
+        }
+}

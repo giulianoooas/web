@@ -1,0 +1,52 @@
+@media screen and (min-width:800px){
+    .introul{
+        display:none;
+    }
+body{
+    font-size: 20px;
+    font-family:Arial;
+}
+.corp{
+    display:grid;
+}
+.all{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+    }
+.stanga{
+    width:10%;
+    }
+input[type='submit']{
+    font-size: 16px;
+    font-family:Arial;
+    border-radius: 30%;
+    width:10%;
+    background-color: green;
+    color: white;
+    border:1px black solid;
+    }
+input[type='reset']{
+    font-size: 16px;
+    font-family:Arial;
+    border-radius: 30%;
+    width:10%;
+    background-color: green;
+    color: white;
+    border:1px black solid;
+    }
+.intro{
+    border:greenyellow 1rem solid;
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    }
+    .pozele{
+        width:50px;
+    }
+    input{
+        font-size: 20px;
+    }
+}

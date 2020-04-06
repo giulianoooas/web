@@ -1,0 +1,56 @@
+@media screen and (min-width:1200px){
+    .meniu a{
+        text-decoration: none;
+        }
+        .meniu a:hover{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu a:active{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu a:link{
+            font-weight: normal;
+            color:white;
+        }
+        .meniu a:visited{
+            font-weight: normal;
+            color:white;
+        }
+    .meniu{
+        font-size:40px;
+        font-family:Arial;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    .meniu > div{
+        background-color: green;
+        border-radius: 30%;
+        border: 1px solid black;
+        padding-top: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+    }
+    .meniu > div:hover{
+        font-weight: bold;
+        animation-name: clicking;
+        animation-iteration-count: 1;
+        animation-duration: 3s;
+    }
+    @keyframes clicking {
+        0% {
+            font-size:40px;
+        }
+        50%{
+            transform: rotate(45deg);
+            font-size: 60px;
+        }
+        100%{
+            font-size: 40px;
+        }
+    }
+}

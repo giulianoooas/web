@@ -1,0 +1,9 @@
+@media screen and (min-width:630px){
+    .yay{
+        text-align:center;
+        background-color: green;
+        border:greenyellow 3pt solid;
+        color:white;
+        font-size: 24px;;
+    }
+}

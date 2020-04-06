@@ -1,0 +1,52 @@
+@media screen and (min-width:650px) and (max-width:1200px){
+    .aaaa{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .gol{
+        width:10%;
+    }
+    .gol2{
+        width:10%;
+    }
+    .urare{
+        display: none;
+    }
+    #down{
+        display:none;
+    }
+    .bbb{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .stanga{
+        width:100%;
+    }
+    .dreapta{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .dreapta img{
+        width:30%;
+        border:1px solid black;
+        border-radius: 20%;
+    }
+    .sageti{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #right{
+        border:none;
+        border-radius: 0%;
+    }
+    .finalul{
+        display:none;
+    }
+
+}

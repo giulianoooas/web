@@ -1,0 +1,61 @@
+@media screen and (min-width:800px){
+    .yay1{
+        display:none;
+    }
+    .intro{
+        font-family: Arial;
+        font-size: 18px;
+        color:black;
+    }
+    .intro h1{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .intro h2{
+        font-size: 28px;
+        text-decoration: underline;
+    }
+    .intro h3{
+        font-size: 26px;
+        text-decoration: underline;
+    }
+    .intro h4{
+        font-size: 24px;
+        text-decoration: underline;
+    }
+    .intro h5{
+        font-size: 22px;
+        text-decoration: underline;
+    }
+    .intro h6{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    input , option , select{
+        font-size:20px;
+    }
+    input[type='submit']{
+        font-size: 16px;
+        font-family:Arial;
+        border-radius: 30%;
+        width:10%;
+        background-color: green;
+        color: white;
+        border:1px black solid;
+        }
+    input[type='reset']{
+        font-size: 16px;
+        font-family:Arial;
+        border-radius: 30%;
+        width:10%;
+        background-color: green;
+        color: white;
+        border:1px black solid;
+        }
+    textarea{
+        width:55%;
+    }
+    .pozele{
+        width:50px;
+    }
+}

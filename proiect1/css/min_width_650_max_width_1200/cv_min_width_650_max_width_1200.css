@@ -1,0 +1,77 @@
+@media screen and (min-width:650px) and (max-width:1200px){
+    .Mare{
+        display:none;
+    }
+    .DeLucru{
+        text-align: center;
+        border:black 1px solid;
+        font-size:22px;
+        background-color: white;
+        color:green;
+        font-weight: bold;
+    }
+    .gol1{
+        width:5%;
+    }
+    .cv{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .aa > div:nth-child(even){
+        border-left: solid black 1px;
+        border-right: black solid 1px;
+    }
+    .aa{
+        width:90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;  
+    }
+    .gol2{
+        width:5%;
+    }
+    .corp1{
+        width:33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .corp2{
+        width:33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .corp3{
+        text-align: center;
+        width:33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .deCompletat{
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-start;
+    }
+    .deCompletat > img{
+        width:40px;
+    }
+    .deCompletat > input{
+        font-size: 12px;
+        font-family: Arial;
+        width:80%;
+        border-radius: 20%;
+        color: green;
+    }
+    input[type = 'submit']{
+        font-size: 20px;
+        width:50%;
+        height:30px;
+        background-color: green;
+        color: white;
+        border:1px solid black;
+        border-radius: 20%;
+    }
+}

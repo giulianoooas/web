@@ -1,0 +1,37 @@
+@media screen and (max-width:650px){
+    .aaaa{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .gol{
+        width:5%;
+    }
+    .gol2{
+        width:5%;
+    }
+    .urare{
+        display:none;
+    }
+    .dreapta{
+        display:none;
+    }
+    .stanga{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .butoane{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .butoane img{
+        height:40px;
+    }
+    .descriere{
+        padding-left: 10px;
+        font-size:20px;
+        font-weight: bold;
+    }
+}

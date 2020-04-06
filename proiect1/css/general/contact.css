@@ -1,0 +1,21 @@
+.corpul{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    font-family: Arial;
+}
+.gros{
+    font-weight: bold;
+}
+.element:hover{
+    padding-top: 2px;
+    border:1px solid #000000;
+    font-family: 'Courier New';
+    background-color: green;
+    color:white;
+    padding-bottom: 2px;
+}
+.element{
+    transition: 0.8s;
+}
